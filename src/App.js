@@ -9,7 +9,21 @@ import {
 import { Navbar, Brand, CTA } from "./components/index";
 
 function App() {
-  return <div></div>;
+  return (
+    <main className="App">
+      <header className="gradient__bg">
+        <Navbar />
+        <Header />
+      </header>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
+    </main>
+  );
 }
 
 export default App;
