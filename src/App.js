@@ -8,6 +8,8 @@ import {
 } from "./containers/index";
 import { Navbar, Brand, CTA } from "./components/index";
 
+import "./App.css";
+
 function App() {
   return (
     <main className="App">
